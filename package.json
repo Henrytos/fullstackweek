@@ -7,9 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "prisma generate"
-  },
-  "prisma": {
+    "prepare": "prisma generate",
     "seed": "ts-node prisma/seed.ts"
   },
   "dependencies": {
