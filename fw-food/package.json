@@ -7,13 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "seed": "ts-node ./prisma/seed.ts",
     "prepare": "husky"
   },
-  "prisma": {
-    "seed": "ts-node ./prisma/seed.ts"
-  },
+  "prisma": {},
   "dependencies": {
     "@prisma/client": "^5.13.0",
+    "@radix-ui/react-slot": "^1.0.2",
     "@types/node": "20.12.7",
     "@types/react": "18.2.79",
     "@types/react-dom": "18.2.25",
